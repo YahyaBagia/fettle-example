@@ -1,6 +1,6 @@
 import React, { useLayoutEffect } from "react";
 import { FlatList, Image, View } from "react-native";
-import { Avatar, Divider, IconButton, Text } from "react-native-paper";
+import { Avatar, Divider, FAB, IconButton, Text } from "react-native-paper";
 import { LinearGradient } from "expo-linear-gradient";
 
 import Container from "../Components/Container/Container";
@@ -24,6 +24,17 @@ const HomeScreen = ({ navigation }) => {
         ItemSeparatorComponent={() => (
           <Divider style={{ marginHorizontal: 12 }} />
         )}
+      />
+      <FAB
+        style={{
+          position: "absolute",
+          right: 20,
+          bottom: 20,
+          backgroundColor: FettleColors.fab,
+        }}
+        icon="plus"
+        color={"black"}
+        onPress={() => {}}
       />
     </Container>
   );
