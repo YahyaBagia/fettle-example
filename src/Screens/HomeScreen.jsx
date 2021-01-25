@@ -29,7 +29,7 @@ const HomeScreen = ({ navigation }) => {
   );
 };
 
-const FlatListItem = ({ item }) => {
+const FlatListItem = React.memo(({ item }) => {
   const {
     username,
     userImage,
@@ -212,6 +212,6 @@ const FlatListItem = ({ item }) => {
       </View>
     </View>
   );
-};
+});
 
 export default HomeScreen;

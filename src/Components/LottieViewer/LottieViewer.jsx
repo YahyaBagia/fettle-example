@@ -34,4 +34,4 @@ const LottieViewer = ({ name }) => {
   );
 };
 
-export default LottieViewer;
+export default React.memo(LottieViewer);

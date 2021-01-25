@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
 
 import Container from "../Components/Container/Container";
 import LottieViewer from "../Components/LottieViewer/LottieViewer";
@@ -10,7 +10,7 @@ const LeaderBoardScreen = ({ navigation }) => {
       headerRight: () => [{ icon: "magnify", onPress: () => {} }],
     });
   });
-  
+
   return (
     <Container style={{ justifyContent: "center", alignItems: "center" }}>
       <LottieViewer name={"LeaderBoardScreen"} />
