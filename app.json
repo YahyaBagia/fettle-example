@@ -3,7 +3,10 @@
     "name": "fettle-example",
     "slug": "fettle-example",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "privacy": "public",
+    "githubUrl": "https://github.com/YahyaBagia/fettle-example",
+    "backgroundColor": "#000000",
+    "orientation": "default",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
@@ -13,9 +16,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
